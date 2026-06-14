@@ -1,0 +1,5 @@
+outs:
+- md5: 1987bb867892622ce6c83099177df66d
+  size: 177352
+  hash: md5
+  path: flares_clean.csv

@@ -39,7 +39,7 @@ logger.addHandler(file_handler)
 load_dotenv()
 NASA_API_KEY = os.getenv("NASA_API_KEY")
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 RAW_DATA_PATH = os.path.join(BASE_DIR, 'data', 'raw', 'flares_raw.csv')
 
 
