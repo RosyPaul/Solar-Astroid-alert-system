@@ -1,0 +1,5 @@
+outs:
+- md5: 32b8b7175f64167f4b0da5b3bfa1c72f
+  size: 197802
+  hash: md5
+  path: flare_model.joblib
